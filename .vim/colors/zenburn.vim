@@ -1,0 +1,1 @@
+/Users/tomoda.tsubasa/Dev/github.com/jnurmine/Zenburn/colors/zenburn.vim

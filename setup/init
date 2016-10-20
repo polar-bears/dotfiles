@@ -1,0 +1,10 @@
+#!/bin/sh -eux
+
+XHOME=$(dirname $0)
+
+# $XHOME/git-submodule
+$HOME/prepare
+$XHOME/homebrew
+$XHOME/symlink
+# $XHOME/ghq
+

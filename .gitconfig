@@ -1,0 +1,13 @@
+[core]
+  excludefile = ~/.gitignore_global 
+
+[user]
+  name = tsubasa
+  email = tsubasatomoda@gmail.com
+
+[ghq]
+  root = ~/src
+
+[color]
+  ui = auto
+

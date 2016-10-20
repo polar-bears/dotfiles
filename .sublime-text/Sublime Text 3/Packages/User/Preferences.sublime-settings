@@ -1,0 +1,23 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/itg.dark (SL).tmTheme",
+	"draw_white_space": "all",
+	"font_face": "Bitstream Vera Sans Mono",
+	"font_size": 12,
+	"highlight_line": true,
+	"hilight_modified_tab": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"itg_sidebar_tree_large": true,
+	"itg_small_tabs": true,
+	"line_padding_top": 4,
+	"preview_on_click": false,
+	"shift_tab_unindent": true,
+	"tab_size": 2,
+	"theme": "itg.flat.dark.orange.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": true
+}

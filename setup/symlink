@@ -1,0 +1,14 @@
+#!/bin/sh -eux
+
+ln -fs $HOME/dotfiles/.vimrc $HOME/
+ln -fs $HOME/dotfiles/.gvimrc $HOME/
+ln -fs $HOME/dotfiles/.npmrc
+ln -fs $HOME/dotfiles/.gitconfig $HOME/
+ln -fs $HOME/dotfiles/.gitignore_global $HOME/
+ln -fs $HOME/dotfiles/.iterm2 $HOME/
+ln -fs $HOME/dotfiles/.config $HOME/
+ln -fs $HOME/dotfiles/.atom/* $HOME/.atom/
+ln -fs $HOME/dotfiles/.vim $HOME/.vim
+ls -fs $HOME/dotfiles/.sublime-text/Sublime\ Text\ 3/* $HOME/Library/Application\ Support/Sublime\ Text\ 3/
+ln -fs $HOME/dotfiles/.git-completion.bash $HOME/
+

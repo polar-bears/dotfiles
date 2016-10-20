@@ -1,0 +1,1 @@
+/Users/tomoda.tsubasa/.config/fisherman/getopts/getopts.fish

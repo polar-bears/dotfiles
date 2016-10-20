@@ -1,0 +1,9 @@
+#!/bash/sh -eux
+
+# env
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+export HOMEBREW_BREWFILE=~/.brewfile/Brewfile
+
+# ghq root
+mkdir -p $HOME/src
+

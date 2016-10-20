@@ -1,0 +1,65 @@
+"*":
+  core:
+    disabledPackages: [
+      "highlight-column"
+      "term2"
+      "japanese-wrap"
+      "angularjs"
+      "language-coffee-script-angular"
+      "script"
+      "autosave"
+      "dev-live-reload"
+      "grammar-selector"
+      "language-c"
+      "language-clojure"
+      "language-csharp"
+      "language-go"
+      "language-java"
+      "language-less"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-shellscript"
+      "language-toml"
+      "metrics"
+      "package-generator"
+      "welcome"
+      "fuzzy-finder-plus"
+    ]
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Bitstream Vera Sans Mono"
+    fontSize: 13
+    invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "02b286b4-f6f4-6402-b79d-395f49316290"
+  "fuzzy-finder":
+    ignoredNames: [
+      "**/node_modules/*"
+    ]
+  "git-projects": {}
+  linter:
+    lintOnFly: false
+    showErrorPanel: false
+  "linter-eslint":
+    eslintrcPath: "./.eslintrc.yml"
+    globalNodePath: "/usr/local"
+  "markdown-preview": {}
+  metrics:
+    userId: "5c4332d2c2d5019fd13e0dddb5b39b90440b0672"
+  "one-dark-ui":
+    layoutMode: "Compact"
+  welcome:
+    showOnStartup: false

@@ -13,6 +13,8 @@ cask sublime-text
 cask teensy
 cask visual-studio-code
 
+tap caskroom/fonts
+
 tap homebrew/core
 brew autoconf
 brew colordiff

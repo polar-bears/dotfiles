@@ -3,7 +3,7 @@
 XHOME=$(dirname $0)
 
 # $XHOME/git-submodule
-$HOME/prepare
+$XHOME/prepare
 $XHOME/homebrew
 $XHOME/symlink
 # $XHOME/ghq

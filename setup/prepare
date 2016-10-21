@@ -1,4 +1,4 @@
-#!/bash/sh -eux
+#!/bin/sh -eux
 
 # env
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"

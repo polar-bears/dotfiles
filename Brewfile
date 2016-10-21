@@ -14,6 +14,7 @@ cask teensy
 cask visual-studio-code
 
 tap caskroom/fonts
+cask font-menlo-for-powerline
 
 tap homebrew/core
 brew autoconf

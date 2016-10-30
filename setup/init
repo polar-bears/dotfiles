@@ -2,9 +2,30 @@
 
 XHOME=$(dirname $0)
 
-# $XHOME/git-submodule
+ask() {
+  printf "$* [y/n] "
+  local answer
+  read answer
+
+  case $answer in
+    "yes" ) return 0 ;;
+    "y" )   return 0 ;;
+    * )     return 1 ;;
+  esac
+}
+
+
 $XHOME/prepare
-$XHOME/homebrew
-$XHOME/symlink
-# $XHOME/ghq
+
+if ask 'homebrew?'; then
+  $XHOME/homebrew
+fi
+
+if ask 'symlink?'; then
+  $XHOME/symlink
+fi
+
+if ask 'ghq?'; then
+  $XHOME/ghq
+fi
 

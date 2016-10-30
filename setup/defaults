@@ -1,0 +1,6 @@
+#!/bin/sh -eux
+
+defaults write com.apple.screencapture location ~/Documents/screenshots
+
+killall SystemUIServer
+

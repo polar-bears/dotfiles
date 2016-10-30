@@ -1,9 +1,5 @@
 #!/bin/sh -eux
 
-## xcode command line tools install
-sudo xcodebuild -license
-sudo xcode-select --install
-
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install caskroom/cask/brew-cask
 brew install rcmdnk/file/brew-file

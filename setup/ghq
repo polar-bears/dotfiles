@@ -1,0 +1,8 @@
+#!/bin/sh -eux
+
+# iTerm color schema
+ghq get https://github.com/t3chnoboy/thayer-bright-iTerm
+
+# ergodox keymap
+ghq get  https://github.com/jackhumbert/qmk_firmware.git
+

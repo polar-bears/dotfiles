@@ -1,18 +1,5 @@
 #!/bin/sh -eux
 
-ask() {
-  printf "$* [y/n] "
-  local answer
-  read answer
-
-  case $answer in
-    "yes" ) return 0 ;;
-    "y" )   return 0 ;;
-    * )     return 1 ;;
-  esac
-}
-
-
 # env
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export HOMEBREW_BREWFILE=~/.brewfile/Brewfile
@@ -28,10 +15,4 @@ mkdir -p $HOME/Library/Application\ Support/Sublime\ Text\ 3/
 
 # screenshot dir
 mkdir -p $HOME/Documents/screenshots
-
-## xcode command line tools install
-if ask 'xcode install?'; then
-  sudo xcodebuild -license
-  sudo xcode-select --install
-fi
 

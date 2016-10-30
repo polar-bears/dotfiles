@@ -1,0 +1,5 @@
+#!/bin/sh -eux
+
+sudo xcodebuild -license
+sudo xcode-select --install
+

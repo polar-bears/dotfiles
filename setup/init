@@ -17,6 +17,10 @@ ask() {
 
 $XHOME/prepare
 
+if ask 'commandline tool?'; then
+  $XHOME/xcode
+fi
+
 if ask 'homebrew?'; then
   $XHOME/homebrew
 fi

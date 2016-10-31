@@ -4,6 +4,7 @@ export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
 
 # export PATH=$PATH:/opt/google-cloud-sdk/current/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W\[\033[m\]% "
 
@@ -25,7 +26,7 @@ fi
 
 function peco-lscd {
   local dir="$( find . -maxdepth 1 -type d | sed -e 's;\./;;' | peco )"
-  if [ ! -z "$dir" ] ; then
+  if [ ! -z "$dir" ]; then
     cd "$dir"
   fi
 }

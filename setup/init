@@ -35,3 +35,5 @@ if ask 'ghq?'; then
   $XHOME/fish
 fi
 
+$XHOME/postprocessing
+

@@ -1,5 +1,6 @@
 #!/bin/sh -eux
 
+ln -fs $HOME/dotfiles/.bashrc $HOME/
 ln -fs $HOME/dotfiles/.vimrc $HOME/
 ln -fs $HOME/dotfiles/.gvimrc $HOME/
 ln -fs $HOME/dotfiles/.npmrc $HOME/

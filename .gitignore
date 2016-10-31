@@ -8,5 +8,6 @@
 .atom/.gitignore
 
 .config/fish/completions
+.config/fish/conf.d
 .config/fisherman
 

@@ -1,1 +1,0 @@
-/Users/tomoda.tsubasa/.config/fisherman/agnoster/fish_right_prompt.fish

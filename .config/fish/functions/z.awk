@@ -1,1 +1,0 @@
-/Users/tomoda.tsubasa/.config/fisherman/z/functions/z.awk

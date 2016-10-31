@@ -1,1 +1,0 @@
-/Users/tomoda.tsubasa/.config/fisherman/git-flow/completions/git.fish

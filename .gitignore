@@ -7,5 +7,6 @@
 .atom/.apm
 .atom/.gitignore
 
+.config/fish/completions
 .config/fisherman
 

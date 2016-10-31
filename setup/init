@@ -32,5 +32,6 @@ fi
 if ask 'ghq?'; then
   $XHOME/ghq
   $XHOME/vim
+  $XHOME/fish
 fi
 

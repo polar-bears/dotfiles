@@ -10,3 +10,8 @@ ghq get https://github.com/jackhumbert/qmk_firmware.git
 ghq get https://github.com/jnurmine/Zenburn.git
 ghq get https://github.com/junegunn/vim-plug.git
 
+# fisherman
+ghq get https://github.com/fisherman/fisherman.git
+# fisher oh-my-fish/theme-agnoster doesn't work
+ghq get https://github.com/oh-my-fish/theme-agnoster.git
+

@@ -1,0 +1,6 @@
+#!/bin/sh -eux
+
+cp $HOME/src/github.com/fisherman/fisherman/fisher.fish $HOME/dotfiles/.config/fish/functions/
+
+ln -fs $HOME/src/github.com/oh-my-fish/theme-agnoster/.fish $HOME/dotfiles/.config/fish/functions/
+

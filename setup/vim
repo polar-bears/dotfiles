@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+mkdir -p $HOME/.vim/colors
+
+ln -fs /Users/tsubasa/src/github.com/jnurmine/Zenburn/colors/zenburn.vim ~/.vim/colors/
+ln -fs /Users/tsubasa/src/github.com/junegunn/vim-plug/plug.vim ~/.vim/autoload/
+

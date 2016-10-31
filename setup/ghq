@@ -4,5 +4,9 @@
 ghq get https://github.com/t3chnoboy/thayer-bright-iTerm
 
 # ergodox keymap
-ghq get  https://github.com/jackhumbert/qmk_firmware.git
+ghq get https://github.com/jackhumbert/qmk_firmware.git
+
+# vim
+ghq get https://github.com/jnurmine/Zenburn.git
+ghq get https://github.com/junegunn/vim-plug.git
 

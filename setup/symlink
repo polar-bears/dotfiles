@@ -8,8 +8,6 @@ ln -fs $HOME/dotfiles/.gitignore_global $HOME/
 ln -fs $HOME/dotfiles/.iterm2 $HOME/
 ln -fs $HOME/dotfiles/.config $HOME/
 ln -fs $HOME/dotfiles/.atom/* $HOME/.atom/
-ln -fs $HOME/dotfiles/.vim/colors/* $HOME/.vim/colors/
-ln -fs $HOME/dotfiles/.vim/autoload/* $HOME/.vim/autoload/
 ln -fs $HOME/dotfiles/.sublime-text/Sublime\ Text\ 3/* $HOME/Library/Application\ Support/Sublime\ Text\ 3/
 ln -fs $HOME/dotfiles/.git-completion.bash $HOME/
 

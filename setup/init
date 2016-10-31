@@ -35,5 +35,9 @@ if ask 'ghq?'; then
   $XHOME/fish
 fi
 
+if ask 'atom?'; then
+  $XHOME/atom
+fi
+
 $XHOME/postprocessing
 

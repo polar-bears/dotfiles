@@ -1,0 +1,6 @@
+#!/bin/sh -eux
+
+cd $HOME/.atom
+./package-install
+cd $HOME/dotfiles
+

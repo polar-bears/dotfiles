@@ -1,5 +1,5 @@
 # load enhancd
-. .config/fisherman/enhancd/fish/enhancd.fish
+# . .config/fisherman/enhancd/fish/enhancd.fish
 
 
 # aliases

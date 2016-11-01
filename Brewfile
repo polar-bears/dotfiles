@@ -80,14 +80,10 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 406056744 Evernote (6.10)
 appstore 408980954 GarageBand (6.0.5)
 appstore 409183694 Keynote (5.3)
 appstore 405399194 Kindle (1.10.3)
-appstore 402398561 MindNode Pro (1.9.4)
 appstore 428834068 Night Owl (2.85)
 appstore 409203825 Numbers (2.3)
-appstore 407963104 Pixelmator (3.5.1)
-appstore 497799835 Xcode (8.0)
 appstore 408981434 iMovie (9.0.8)
 appstore 408981381 iPhoto (9.6.1)

@@ -19,6 +19,7 @@ cask font-menlo-for-powerline
 
 tap homebrew/core
 brew autoconf
+brew automake
 brew colordiff
 brew curl
 brew dfu-programmer
@@ -36,6 +37,7 @@ brew hub
 brew jq
 brew libevent
 brew libmpc
+brew libtool
 brew libusb
 brew libusb-compat
 brew lua
@@ -80,4 +82,9 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-  
+appstore 682658836 GarageBand (10.1.2)
+appstore 409183694 Keynote (6.6.2)
+appstore 409203825 Numbers (3.6.2)
+appstore 409201541 Pages (5.6.2)
+appstore 497799835 Xcode (8.1)
+appstore 408981434 iMovie (10.1.2)
